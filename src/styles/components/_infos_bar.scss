@@ -50,4 +50,20 @@
             }
         }
     }
+
+    @media (min-width: 1440px) {
+        padding: 16px 80px;
+
+        &__infos {
+            gap: 60px;
+
+            &__item {
+                font-size: 22px;
+
+                b {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
 }
