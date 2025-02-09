@@ -33,14 +33,20 @@
     @media (max-width: 1024px) {
         display: flex;
         align-items: center;
-        margin-top: 16px !important;
-        margin-bottom: 16px !important;
-    }
-
-    @media (max-width: 2600px) {
-        display: flex;
-        align-items: center;
+        padding: 12px;
         margin-top: 8px;
         margin-bottom: 8px;
+    }
+
+    @media (min-width: 1025px) {
+        display: flex;
+        align-items: center;
+        padding: 12px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+        &--primary {
+            font-size: 24px;
+        }
     }
 }
