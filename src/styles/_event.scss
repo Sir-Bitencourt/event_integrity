@@ -71,4 +71,23 @@
             margin-top: 10px;
         }
     }
+
+    @media (min-width: 1441px) {
+
+        font-size: 150%;
+        padding: 20px 10px;
+        font-weight: lighter;
+
+        &__details {
+
+            &__title {
+                font-size: 130%;
+            }
+        }
+        
+        &__image {
+            max-width: 30%;
+            margin-top: 10px;
+        }
+    }
 }
