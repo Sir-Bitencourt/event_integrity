@@ -1,0 +1,74 @@
+@use 'variables';
+
+.event {
+    padding: 80px 0;
+
+    &--contabil, &--tributario, &--fiscal, &--dp {
+        background-image: linear-gradient(90deg, variables.$color2, variables.$color1);
+    }
+
+    &--image-left {
+        .container {
+            flex-direction: row-reverse;
+        }
+    }
+
+    .container {
+        display: flex;
+        gap: 40px;
+        text-align: justify;
+    }
+
+    &__image {
+        display: block;
+        width: 4000px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    &__details {
+
+        &__title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 16px;
+        }
+
+        &__description {
+            line-height: 22px;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__image {
+            max-width: 100%;
+            margin-top: 10px;
+        }
+
+        &__details {
+            margin-right: 0;
+            text-align: justify;
+
+            &__title {
+                text-align: center;
+            }
+        }
+    }
+
+    @media (max-width: 800px) {
+        .container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__image {
+            max-width: 100%;
+            margin-top: 10px;
+        }
+    }
+}
