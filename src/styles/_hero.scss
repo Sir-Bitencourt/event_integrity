@@ -53,4 +53,14 @@
         }
         
     }
+
+    @media (min-width: 1441px) {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+        &__text {
+            font-size: 50px;
+            line-height: 56px;
+        }
+    }
 }
