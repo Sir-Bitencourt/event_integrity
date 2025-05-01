@@ -1,6 +1,6 @@
 AOS.init();
 
-const dataDoEvento = new Date('Mar 20, 2025 18:00:00');
+const dataDoEvento = new Date('Mar 20, 2026 18:00:00');
 const timeStampDoEvento = dataDoEvento.getTime();
 
 const contagemRegressiva = setInterval(function() {
